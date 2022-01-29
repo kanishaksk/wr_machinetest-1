@@ -1,0 +1,151 @@
+@font-face{
+    src: url(fonts/HKGrotesk-Italic.otf);
+    font-family: HK Grotesk;
+}
+@font-face{
+    src: url(fonts/HKGrotesk-Regular.otf);
+    font-family: regular;
+}
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vector1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 750px;
+    background: black;
+}
+
+img.vector2{
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 190px;
+    top: 38px;
+    background: #528FF0;
+    border: 1px solid #528FF0;
+}
+img.vector3{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    left: 197px;
+    top: 28px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.logo span.logo-name{
+    position: absolute;
+    width: 59px;
+    height: 24px;
+    left: 211px;
+    top: 28px;
+    color: #FFFFFF;
+    font-family: HK Grotesk;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+}
+.navbar{
+    display: flex;
+
+}
+
+.navbar ul{
+    display: flex;
+    margin: 32px;
+}
+.section1 .navbar a{
+    position: relative;
+    color: white;
+    font-family: regular;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px 23px;
+    
+}
+.login img .us-img{
+    margin-right: 15px;
+}
+.login{
+    position: relative;
+}
+.login-btn{
+    background: #030F3F;
+    border: 1px solid#2B83EA;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: regular;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 10px 20px;
+    transition: background-color ease-in 0.5s;
+
+}
+.sigin-btn{
+    font-family: regular;
+    font-weight: bold;
+    font-size : 15px;
+    line-height: 24px;
+    color: #528FF0;
+    border: 1px solid #EDEDED;
+    border-radius: 2px;
+    background: #FFFFFF;
+    padding: 9px 44px 9px 20px;
+    margin-left: 16px;
+}
+.login-btn:hover{
+    background-color: #20646B;
+}
+.sigin-btn:hover{
+    background-color: #3d3f64;
+}
+.login img .arrow-img{}
+.hero .hero-info{
+    position: absolute;
+    top: 135px;
+    left: 190px;
+    max-width: 517px;
+}
+.hero .hero-info h1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: listing;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0.01em;
+
+}
+.hero .hero-info p{
+    color: rgba(255,255,255,0.7);
+    font-size: 18px;
+    font-family: listing;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 32px 0;
+}
+.hero .hero-info .signow-btn{
+    background: #2783F3;
+    border: 1px solid#2783F3;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: regular;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 12px 20px;
+}
